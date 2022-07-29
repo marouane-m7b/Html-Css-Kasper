@@ -1000,7 +1000,21 @@ header nav .form i:hover {
   border-left: none;
   text-transform: uppercase;
 }
-.subscribe form input[type="email"]:focus,
+.subscribe form input[type="submit"]:hover {
+  background-color: white;
+  color: var(--main-color);
+  cursor: pointer;
+  border: 1px solid var(--main-color);
+  border-left: none;
+}
+.subscribe form input[type="submit"]:hover {
+  background-color: white;
+  color: var(--main-color);
+  cursor: pointer;
+  border: 1px solid var(--main-color);
+  border-left: none;
+}
+subscribe form input[type="email"]:focus,
 .subscribe form input[type="submit"]:focus {
   outline: none;
 }
